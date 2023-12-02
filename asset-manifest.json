@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Pronosticos/static/css/main.4c92d4a5.css",
-    "main.js": "/Pronosticos/static/js/main.8db2707b.js",
-    "index.html": "/Pronosticos/index.html",
-    "main.4c92d4a5.css.map": "/Pronosticos/static/css/main.4c92d4a5.css.map",
-    "main.8db2707b.js.map": "/Pronosticos/static/js/main.8db2707b.js.map"
+    "main.css": "/ninobarrios/Pronosticos/static/css/main.4c92d4a5.css",
+    "main.js": "/ninobarrios/Pronosticos/static/js/main.8db2707b.js",
+    "index.html": "/ninobarrios/Pronosticos/index.html",
+    "main.4c92d4a5.css.map": "/ninobarrios/Pronosticos/static/css/main.4c92d4a5.css.map",
+    "main.8db2707b.js.map": "/ninobarrios/Pronosticos/static/js/main.8db2707b.js.map"
   },
   "entrypoints": [
     "static/css/main.4c92d4a5.css",
