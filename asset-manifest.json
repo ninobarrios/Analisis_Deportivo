@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ninobarrios/Pronosticos.git/static/css/main.4c92d4a5.css",
+    "main.js": "/ninobarrios/Pronosticos.git/static/js/main.8db2707b.js",
+    "index.html": "/ninobarrios/Pronosticos.git/index.html",
+    "main.4c92d4a5.css.map": "/ninobarrios/Pronosticos.git/static/css/main.4c92d4a5.css.map",
+    "main.8db2707b.js.map": "/ninobarrios/Pronosticos.git/static/js/main.8db2707b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c92d4a5.css",
+    "static/js/main.8db2707b.js"
+  ]
+}
