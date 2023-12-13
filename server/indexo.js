@@ -18,7 +18,7 @@ db.connect((err) => {
         if (err) {
                 console.error('Errores de la vida con la base de datos no se pudo conectar: ' + err);
         } else {
-                console.log('Conexión a la base de datos exitosa');
+                console.log('Conexión a la base de datos exitosaaaaaa');
         }
 });
 
