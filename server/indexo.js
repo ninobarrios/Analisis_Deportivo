@@ -10,10 +10,12 @@ app.use(express.json());
 
 const db=mysql.createConnection({
         host:"localhost",
-        user:"root",
+        user:"id21621907_nino",
         password:"",
-        database:"pronosticos"
+        database:"id21621907_pronosticos"
 });
+
+
 db.connect((err) => {
         if (err) {
                 console.error('Errores de la vida con la base de datos no se pudo conectar: ' + err);
