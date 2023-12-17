@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Analisis_Deportivo/static/css/main.4c92d4a5.css",
-    "main.js": "/Analisis_Deportivo/static/js/main.3fd2b6df.js",
+    "main.js": "/Analisis_Deportivo/static/js/main.f6d7d4e6.js",
     "index.html": "/Analisis_Deportivo/index.html",
     "main.4c92d4a5.css.map": "/Analisis_Deportivo/static/css/main.4c92d4a5.css.map",
-    "main.3fd2b6df.js.map": "/Analisis_Deportivo/static/js/main.3fd2b6df.js.map"
+    "main.f6d7d4e6.js.map": "/Analisis_Deportivo/static/js/main.f6d7d4e6.js.map"
   },
   "entrypoints": [
     "static/css/main.4c92d4a5.css",
-    "static/js/main.3fd2b6df.js"
+    "static/js/main.f6d7d4e6.js"
   ]
 }
