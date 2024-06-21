@@ -1,42 +1,45 @@
-// Cargar variables de entorno desde .env
 require('dotenv').config();
 
-const express = require("express");
+const mysql = require('mysql');
+const express = require('express');
 const app = express();
-const mysql = require("mysql");
-const cors = require("cors");
 
-// Middleware
-app.use(cors());
-app.use(express.json());
+// Middleware y configuración de la aplicación aquí
 
 // Configuración de la conexión a la base de datos
 const db = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_DATABASE
-});
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
+    charset: 'utf8mb4'
+  });
+  
 
 // Conectar a la base de datos
 db.connect((err) => {
   if (err) {
-    console.error('Error al conectar con la base de datos: ' + err);
-  } else {
-    console.log('Conexión a la base de datos exitosa');
+    console.error('Error al conectar con la base de datos:', err.stack);
+    return;
   }
+  console.log('Conexión a la base de datos exitosa');
 });
 
-// Ejemplo de ruta de prueba
-app.get('/', (req, res) => {
-  res.send('Hola Mundo desde Express y MySQL');
-});
+// Rutas y lógica de la aplicación aquí
 
 // Iniciar servidor
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en puerto ${PORT}`);
 });
+
+
+// Ejemplo de ruta de prueba
+app.get('/', (req, res) => {
+  res.send('Hola Mundo desde Express y MySQL');
+});
+
+
 
 
 app.get("/empleados",(req,res)=>{
